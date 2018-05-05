@@ -1,6 +1,6 @@
 
 import React from "react";
-import FAQ from "./FAQ";
+import FAQ from "./FAQ_";
 import FAQ1 from "./FAQ1";
 import FAQ2 from "./FAQ2";
 

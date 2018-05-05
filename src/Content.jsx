@@ -1,4 +1,3 @@
-
 import React from "react";
 import FAQ from "./FAQ_";
 import FAQ1 from "./FAQ1";

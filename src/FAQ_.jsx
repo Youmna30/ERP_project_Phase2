@@ -1,4 +1,3 @@
-
 import React from "react";
 
 class FAQ extends React.Component {

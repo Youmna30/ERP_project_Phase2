@@ -1,0 +1,413 @@
+@font-face { font-family :"Avenir Heavy"; src: url(fonts/Avenir-Heavy.otf);}
+@font-face { font-family :"AvenirL TStd"; src: url(fonts/AvenirLTStd-Heavy.otf);}
+@font-face { font-family :"MyriadPro Regular"; src: url(fonts/MyriadPro-Regular.otf);}
+
+
+*{
+	margin: 0px;
+	padding:0px;
+}
+.Header{
+	background-color: #e6001f;
+	width: 56.2cm;
+	height: 4.73cm;
+}
+.logo {
+	float:left;
+	margin-left:13cm;
+	margin-top:-3cm;
+	position:absolute;
+	z-index:2
+
+}
+.logo1{
+	margin-left:14.2cm;
+	position:absolute;
+	margin-top:1.1cm;
+	z-index:2
+
+}
+.hlinks a {
+	display:inline-block;
+	text-decoration:none;
+	color:#ffffff;
+	margin-top:3cm;
+	padding-right:0.7cm;
+	font-size:25px
+}
+ .hlinks span {
+	 color:#ffffff;
+	 	font-size:25px
+
+ }
+.hlinks{
+	float:right;
+	margin-right:13cm
+}
+.Pic{
+	width:56.2cm;
+	height:20.59cm;
+	background-color: rgba(0,0,0,0.1);
+
+}
+.img1{
+	float:left;
+
+}
+.img2{
+	float:left;
+
+
+}
+.img3{
+	float:left;
+}
+.img1 img , .img2 img , .img3 img{
+	opacity:0.2
+}
+
+.img2 .bar{
+	background-color:#f0f0f1;
+	height:3.3cm;
+	width:23.2cm;
+	position:absolute;
+	margin-top:-5.7cm;
+	margin-left:3.5cm;
+
+}
+.img2 .bar p{
+	font-family:AvenirL TStd ;
+	padding:0.5cm;
+	font-size:25pt;
+	color:#bdbdbe
+
+}
+.img2 .redbar{
+	background-color:#ebbdc4;
+	width:26.2cm;
+	height:1.5cm;
+	margin-left:3.5cm;
+	margin-top:-3.9cm;
+	position:absolute;
+
+}
+.img2 .redbar a {
+	display: inline-block;
+	float:right;
+	padding:0.45cm 0.25cm;
+	color:#eedade;
+	font-size:18pt;
+	text-decoration:none;
+	margin-right:0.5cm
+}
+.bar{
+	background-color:#ffffff;
+	height:3.3cm;
+	width:23.2cm;
+	position:absolute;
+	margin-top:-5.7cm;
+	margin-left:3.5cm;
+
+}
+.bar p{
+	font-family:AvenirL TStd ;
+	padding:0.5cm;
+	font-size:25pt
+
+}
+.redbar{
+	background-color:#e6001f;
+	width:26.2cm;
+	height:1.5cm;
+	margin-left:3.5cm;
+	margin-top:-3.9cm;
+	position:absolute
+
+}
+.redbar a {
+	display: inline-block;
+	float:right;
+	padding:0.45cm 0.25cm;
+	color:#fef6f7;
+	font-size:18pt;
+	text-decoration:none;
+	margin-right:0.5cm
+}
+.menu{
+	background-color:#bdbdbe;
+	height:2.5cm;
+	width:33cm;
+	margin-left:-0.5cm;
+	position:absolute;
+	margin-top:-1.5cm;
+
+}
+.menucomp {
+	color:#f0f0f1;
+	display:inline-block;
+	text-decoration:none;
+	margin-left:3.2cm;
+	padding :1cm;
+	font-family:MyriadPro Regular;
+    margin-right:3cm;
+	font-size:15pt
+
+
+
+}
+.dropdown{
+	position:relative;
+	display:inline-block;
+}
+.dropdownlist{
+	background-color:#ffffff;
+	display:none;
+	position:absolute;
+    width:56.2cm;
+	height:2cm;
+	margin-left:-34.5cm;
+
+}
+.dropdownlist a {
+float:left;
+margin-left:27.7cm;
+text-decoration:none;
+font-family:MyriadPro Regular;
+color:#000000;
+padding-top:0.5cm;
+font-size:15pt
+
+
+}
+.dropdownlist .dropcont{
+	margin-right:-20cm;
+
+}
+.dropdown:hover .dropdownlist{
+	display:inline-block
+}
+.Middle{
+	background-color:#ececed;
+	width:56.2cm;
+	height:50.59cm;
+}
+.event{
+	width:25.4cm;
+	height:28cm;
+	background-color:#ffffff;
+	margin:2cm 12cm;
+	position:absolute;
+	float:left
+}
+.eventphoto{
+	width:24cm;
+	height:10cm
+}
+.eventphoto img{
+	width:100%;
+	height:auto
+}
+.title{
+	font-family:AvenirL TStd ;
+	padding:0.5cm;
+	font-size:23pt;
+	margin:1cm;
+	background-color:#ffffff
+}
+.content{
+	margin:3cm 1cm 3cm 1cm;
+	background-color:#ffffff
+}
+.content p{
+	font-family:Avenir Heavy;
+	font-size:17pt;
+	color:#b3b3b3;
+
+}
+.links{
+	margin:0.8cm;
+	overflow:hidden;
+	margin-top:-0.5cm
+}
+.links a{
+	text-decoration:none;
+	color:#e82439;
+	font-family:AvenirL TStd;
+	display:inline-block;
+	font-size:15pt
+
+}
+.links .right{
+	margin-left:18cm
+}
+.event2 , .event21, .event22, .event23{
+	width:12.5cm;
+	height:13cm;
+	float:left;
+	background-color:#ffffff;
+	margin:2cm 38cm;
+
+
+}
+.event2 .content,.event21 .content
+,.event22 .content,.event23 .content{
+	margin:1cm
+}
+.event2 .links .right,.event3 .links .right,.event21 .links .right
+,.event22 .links .right,.event23 .links .right{
+	margin-left:6cm
+}
+.event3{
+	width:12.7cm;
+	height:14cm;
+	float:left;
+	background-color:#ffffff;
+	margin-left:38cm;
+	margin-top:-1cm
+}
+.eventphoto3{
+	width:12.7cm;
+}
+.eventphoto3 img{
+	width:100%;
+	height:auto
+}
+
+
+.event21 , .event22 , .event23{
+	float:left;
+	margin:1.4cm
+}
+.event21{
+	margin-left:12cm
+}
+.event22{
+	margin-left:-1cm
+}
+.event23{
+	margin-left:-0.9cm
+}
+.button{
+	padding:0.5cm 2.3cm 0.5cm 2.3cm;
+    background-color:transparent;
+    border-style: solid;
+    border-color:#e6001f;
+    color:#e6001f;
+	font-family:"Avenir Heavy";
+	margin-left:26.6cm;
+	font-size:20pt;
+	overflow:auto
+}
+.Window{
+	background-color:transparent;
+	width:38.7cm;
+	height:36cm;
+	position:absolute;
+	margin:-48.6cm 12cm 12cm 12cm;
+   /* background-color: rgba(255,255,255,.5);*/
+   background-color:#ffffff
+}
+.Window .content p{
+ padding:1cm;
+ font-size:18pt;
+ margin-top:-1cm
+}
+.Window .title p{
+	font-size:22pt;
+	margin-top:-0.5cm;
+	margin-bottom:0.5cm
+}
+
+.eventphoto31{
+	width:38.7;
+}
+.eventphoto31 img{
+	width:100%;
+	height:auto
+}
+.Window .wind .bar{
+	margin:0cm;
+	padding:0cm;
+	margin:2cm;
+	float:left;
+	margin-left:12cm;
+	height:6.4cm
+}
+.Window .wind .redbar{
+	margin-top:7cm;
+	margin-left:12cm
+
+}
+.Window .wind{
+	background-color:rgba(255,255,255,.5);
+	margin-top:4cm;
+	width:38cm;
+	height:12.8cm
+}
+.faceking{
+	float:left;
+	margin-left:3.5cm;
+	margin-top:2cm;
+
+}
+.Footer{
+	background-color:#bdbdbe;
+	height:13cm;
+	width:56.2cm;
+	overflow:auto;
+
+}
+.flogo{
+	margin-left:13cm;
+	position:absolute;
+	margin-top:1cm;
+	width:6.5cm;
+
+
+}
+.flogo img{
+	width:100%;
+	height:auto;
+
+}
+.first{
+	margin-left:25cm;
+	margin-top:2.7cm;
+	float:left;
+
+
+
+}
+.firstContent{
+	color:#f0f0f1;
+	font-family:MyriadPro Regular;
+	font-size:15pt
+
+
+}
+.firstcont{
+	color:#e2e2e2;
+	font-family:MyriadPro Regular;
+    	font-size:15pt
+
+	}
+.second{
+	float:left;
+	margin-left:5cm;
+	margin-top:2.7cm;
+
+
+}
+ .second a{
+    display:inline-block;
+	text-decoration:none;
+	color:#f0f0f1;
+	margin-right:0.5cm;
+ }
+.second .fa-facebook {
+	background-color:#f0f0f1;
+	color:#bdbdbe;
+	padding:0.05cm;
+	padding-bottom:0cm;
+	padding-left:0.1cm
+}

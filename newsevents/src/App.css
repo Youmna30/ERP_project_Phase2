@@ -1,0 +1,272 @@
+@font-face { font-family :"Avenir Heavy"; src: url(fonts/Avenir-Heavy.otf);}
+@font-face { font-family :"AvenirL TStd"; src: url(fonts/AvenirLTStd-Heavy.otf);}
+@font-face { font-family :"MyriadPro Regular"; src: url(fonts/MyriadPro-Regular.otf);}
+
+*{
+	margin: 0px;
+	padding:0px;
+}
+.Header{
+	background-color: #e6001f;
+	width: 56.2cm;
+	height: 4.73cm;
+	position:absolute;
+}
+.logo {
+	float:left;
+	margin-left:13cm;
+	margin-top:-2.5cm;
+	position:absolute;
+
+}
+.logo1{
+	margin-left:14.2cm;
+	position:absolute;
+	margin-top:1.6cm
+}
+.hlinks a {
+	display:inline-block;
+	text-decoration:none;
+	color:#ffffff;
+	margin-top:3cm;
+	padding-right:0.7cm;
+	font-size:25px
+}
+ .hlinks span {
+	 color:#ffffff;
+	 	font-size:25px
+
+ }
+.hlinks{
+	float:right;
+	margin-right:13cm
+}
+.Pic{
+	width:56.2cm;
+	height:20.59cm;
+	overflow:auto;
+
+}
+.img1{
+	float:left;
+
+}
+.img2{
+	float:left;
+}
+.img3{
+	float:left;
+}
+.bar{
+	background-color:#ffffff;
+	height:3.3cm;
+	width:23.2cm;
+	position:absolute;
+	margin-top:-5.7cm;
+	margin-left:3.5cm;
+
+}
+.bar p{
+	font-family:AvenirL TStd ;
+	padding:0.5cm;
+	font-size:25pt
+
+}
+.redbar{
+	background-color:#e6001f;
+	width:26.2cm;
+	height:1.5cm;
+	margin-left:3.5cm;
+	margin-top:-3.9cm;
+	position:absolute
+
+}
+.redbar a {
+	display: inline-block;
+	float:right;
+	padding:0.45cm 0.25cm;
+	color:#fef6f7;
+	font-size:18pt;
+	margin-right:0.5cm;
+	text-decoration:none
+
+}
+.menu{
+	background-color:#000000;
+	height:2.5cm;
+	width:33cm;
+	margin-left:-0.5cm;
+	position:absolute;
+	margin-top:-1.5cm
+}
+.menucomp , .menucompwho{
+	color:#ffffff;
+	display:inline-block;
+	text-decoration:none;
+	margin-left:3.2cm;
+	padding :1cm;
+	font-family:MyriadPro Regular;
+    margin-right:3cm;
+	font-size:15pt
+}
+.menucompwho{
+  color:#c9001a
+}
+.dropdown{
+	position:relative;
+	display:inline-block;
+}
+.dropdownlist{
+	background-color:#ffffff;
+	display:none;
+	position:absolute;
+  width:56.2cm;
+	height:2cm;
+	margin-left:-43.9cm;
+  margin-top: 2cm
+
+}
+.dropdownlist a {
+float:left;
+margin-left:22cm;
+text-decoration:none;
+font-family:MyriadPro Regular;
+color:#000000;
+padding-top:0.5cm;
+font-size:15pt;
+padding-right: 5cm
+
+
+}
+.dropdownlist .dropcont{
+	margin-right:-20cm;
+
+}
+
+.dropdown:hover .dropdownlist{
+	display:inline-block
+}
+.Middle{
+	background-color:#ececed;
+	width:56.2cm;
+	height:35.59cm
+
+}
+.hmiddle{
+	display: inline-block;
+	font-family: "AvenirL TStd";
+	margin: 3.21cm 0cm 1.5cm 15cm;
+	font-size:25pt
+
+
+}
+.event{
+	background-color:#ffffff;
+	margin:0cm 14cm 1cm 14cm;
+	padding:1.5cm;
+	width:30cm;
+
+
+}
+.Date{
+	font-family:"Avenir Heavy";
+	color:#959595;
+	margin-bottom:0.2cm;
+	font-size:23.89pt
+}
+.title{
+	font-family: "AvenirL TStd";
+		margin-bottom:0.5cm;
+		font-size:25pt
+
+}
+
+.line{
+	border:none;
+	width:0.5cm;
+	height:0.1cm;
+	background-color:red;
+	display:inline-block
+
+}
+.content{
+    font-family:"Avenir Heavy";
+	color:#959595;
+	margin-left:0.5cm;
+	font-size:15pt
+}
+.text{
+	margin-top:-0.4cm;
+	margin-left:0.5cm;
+}
+.button{
+	padding:0.5cm 2.3cm 0.5cm 2.3cm;
+    background-color:transparent;
+    border-style: solid;
+    border-color:#e6001f;
+    color:#e6001f;
+	font-family:"Avenir Heavy";
+	margin-left:26.6cm;
+	font-size:20pt
+}
+.Footer{
+	background-color:#000000;
+	height:13cm;
+	width:56.2cm;
+	overflow:auto;
+	position:absolute;
+
+}
+.flogo{
+	margin-left:13cm;
+	position:absolute;
+	margin-top:1cm;
+	width:6.5cm;
+
+
+}
+.flogo img{
+	width:100%;
+	height:auto
+}
+.first{
+	margin-left:25cm;
+	margin-top:2.7cm;
+	float:left;
+
+
+
+}
+.firstContent{
+	color:#ffffff;
+	font-family:MyriadPro Regular;
+	font-size:15pt
+
+
+}
+.firstcont{
+	color:#989898;
+	font-family:MyriadPro Regular;
+    	font-size:15pt
+
+	}
+.second{
+	float:left;
+	margin-left:5cm;
+	margin-top:2.7cm;
+
+
+}
+ .second a{
+    display:inline-block;
+	text-decoration:none;
+	color:#ffffff;
+	margin-right:0.5cm;
+ }
+.second .fa-facebook {
+	background-color:#ffffff;
+	color:#000000;
+	padding:0.05cm;
+	padding-bottom:0cm;
+	padding-left:0.1cm
+}

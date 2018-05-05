@@ -1,0 +1,355 @@
+@font-face { font-family :"AvenirL TStd"; src: url(fonts/AvenirLTStd-Heavy.otf);}
+@font-face { font-family :"Avenir Heavy"; src: url(fonts/Avenir-Heavy.otf);}
+@font-face { font-family :"MyriadPro Regular"; src: url(fonts/MyriadPro-Regular.otf);}
+
+ul
+{
+    list-style-type: none;
+}
+
+a
+{
+    text-decoration: none;
+}
+body
+{
+    width: 100%;
+    height: 2000px;
+    margin: 0 auto;
+    background-color:#ececed;
+
+}
+.Header
+{
+    width: 100%;
+    /*height: 6%;*/
+    height: 2.7cm;
+    background-color: #e6001f;
+    overflow: auto;
+    background-repeat: no-repeat
+}
+.Header .header-container
+{
+    width: 60%;
+    height: 100%;
+    margin: 0 auto;
+
+
+}
+.Header .logo-container
+{
+
+    width: 30%;
+    height: 100%;
+    float:left;
+
+}
+.Header .logo-container img
+{
+    position:absolute;
+
+
+}
+.Header  .nav-menue
+{
+    width: 40%;
+    height: 100%;
+    float:right;
+    margin-top: 20px;
+
+}
+
+.Header li,.social-media li
+{
+    display: inline;
+    margin-left: 30px;
+}
+.icon,a,h3
+{
+    color: white;
+}
+.SliderContainer
+{
+    width: 100%;
+    /*height: 25%;*/
+    height: 20cm;
+   background-color: white;
+   position: relative;
+    z-index: -1;
+}
+
+.SliderContainer .photos
+{
+    width: 100%;
+    height: 85%;
+    position: relative;
+    z-index: -1;
+}
+.SliderContainer .photos div
+{
+    float:left;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position:center;
+}
+.SliderContainer .div1
+{
+    width: 18%;
+    height: 100%;
+
+}
+.SliderContainer .div3
+{
+     width: 18%;
+    height: 100%;
+}
+.SliderContainer .div2
+{
+    width: 64%;
+    height: 100%;
+}
+
+.fixed-menue
+{
+    background-color: black;
+    width:68%;
+    height: 10%;
+    margin: -50px auto;
+    padding-bottom: 20px
+
+
+}
+.fixed-menue li
+{
+    float: left;
+
+    margin-left: 250px;
+    font-size: 16pt;
+}
+.bar
+{
+    width:70%;
+    height: 15%;
+    float:left;
+    margin-top: 400px;
+    margin-left: 150px;
+    padding: 1cm;
+    background-color: white;
+}
+.bar p
+{
+    font-size: 22pt;
+    font-family:AvenirL TStd ;
+}
+.buttons
+{
+    width:8%;
+    height: 7.2%;
+    float:left;
+    margin-top: 475px;
+    background-color: #e6001f;
+    padding-top: 15px
+
+}
+.buttons a
+{
+    margin-left: 28px;
+
+}
+main
+{
+    width:100%;
+    height: 54%;
+    margin:0 auto;
+    padding-top: 50px;
+}
+section
+{
+    width:70%;
+    height: 22%;
+    margin: 30px auto;
+    background-color: #ffffff;
+    overflow: auto;
+}
+.publication-content
+{
+    width:65%;
+    height: 100%;
+    float:left;
+
+}
+article
+{
+    width: 100%;
+    height: 90%;
+    margin: 0 auto;
+    padding: 20px;
+}
+p
+{
+    margin: 0 auto;
+}
+h1
+{display: inline;}
+.mark
+{
+    width: 15px;
+    height: 0px;
+    margin-top:10px;
+    border:2px solid #e6001f;
+    float:left;
+}
+
+.details
+{
+    width: 80%;
+    height: 40%;
+    margin: 10px 10px;
+    display: inline;
+    float: left;
+
+}
+.download
+{
+    float: left;
+    display: inline;
+    border: 0px;
+    margin-top:5cm;
+    margin-left: -20cm;
+
+}
+main span
+{
+    margin-bottom: 20px;
+}
+button
+{
+    background-color: white;
+
+}
+.download a {
+  font-size: 15pt;
+
+}
+.photo
+{
+    width:35%;
+    height: 100%;
+    float:left;
+    background-color:#ececed;
+}
+.photo img
+{
+    width: 100%;
+    height: 100%;
+}
+main .icon
+{
+    color: #e6001f;
+}
+section p, section span, section a
+{
+    color: #959494;
+}
+
+section p
+{
+    font-family: "Avenir Heavy";
+    font-size: 20pt;
+}
+section span
+{
+    font-family: "AvenirL TStd";
+}
+section button
+{
+
+    border-style:hidden;
+
+}
+
+.view-more
+{
+    width:20%;
+    height: 5%;
+    margin: 150px auto;
+    display: block;
+    background-color: #ececed;
+    border:2px solid red;
+
+
+}
+.view-more a
+{
+    font-size: 26pt;
+    color: #e6001f;
+}
+.Footer
+{
+    width:100%;
+    height: 10cm;
+    background-color:#000000;
+    padding-top: 50px
+
+}
+
+.footer-container
+{
+    width:80%;
+    height: 80%;
+    margin: 0px auto;
+
+}
+.Footer .logo-container/* 1 */
+{
+    width:20%;
+    height: 100%;
+    float: left;
+    margin-left: 15cm;
+    margin-top: 1cm
+}
+
+.footer-menues /* 2 */
+{
+    width:50%;
+    height: 90%;
+    float: right;
+
+
+}
+
+.footer-menues > div/* 2->1 */
+{
+    width:30%;
+    height: 95%;
+    float:left;
+    margin: 10px;
+      margin-left: -2cm
+}
+.social-media
+{
+ height: 15%;
+ margin-left: -30px;;
+}
+.Footer span
+{
+    color:#ffffff;
+    font-size: 20pt;
+    font-family: MyriadPro Regular;
+
+}
+.Footer li
+{
+     margin-top:20px;
+}
+.Footer a
+{
+    color: #999999;
+    font-size: 18pt;
+    font-family: MyriadPro Regular;
+}
+
+.Footer .icon
+{
+     color:#ffffff;
+}

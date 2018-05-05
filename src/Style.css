@@ -1,0 +1,598 @@
+@font-face { font-family: "AvenirL TStd"; src: url(fonts/AvenirLTStd-Heavy.otf); }
+@font-face { font-family: "AvenirL TStd Roman"; src: url(fonts/AvenirLTStd-Roman.otf); }
+@font-face { font-family: "AvenirL TStd Medium"; src: url(fonts/AvenirLTStd-Medium.otf); }
+
+
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "AvenirL TStd";
+}
+.test{
+    margin: 0 auto;
+    max-width: 900px;
+}
+.Main-container{
+    background-image:url(./imgs/africa.png);
+    background-color: #e50f0f;
+    height: 700px;
+    
+}
+
+.Main-container2{
+    background-color: #e50f0f;
+    height: 700px;
+}
+
+
+
+.first, .second, .third{
+    font-family: "AvenirL TStd Medium";
+    font-size: 0.7em;
+    color: white;
+}
+h4{
+    font-family: "AvenirL TStd Roman";
+}
+
+#inMenu{
+	display: flex;
+	justify-content: space-between;
+    align-items: center;
+	margin:1% auto;
+}
+
+.clear{
+    clear: both;
+}
+
+#logo{
+    width: 151px;
+    height: 164px;
+    float: left;
+    margin-top: 20px;
+}
+
+header nav{
+    padding: 50px;
+}
+
+
+
+header nav ul li{
+    margin-left: 20px;
+    float: right;
+}
+
+ul{
+    list-style-type: none;
+    margin-left: 20px;
+}
+
+header nav ul li select{
+    border-color: white;
+    background-color: #e50f0f;
+    color:white;
+}
+
+.Main-Header{
+    height: 310px;
+    font-size: 1.6em;
+    color:white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.text{
+    width: 270px;
+    display: inline-block;
+}
+
+.text h4{
+    font-size: 1em;
+    font-family: "AvenirL TStd Roman";
+}
+
+.know-more{
+    background-color: #e50f0f;
+    width: 315px;
+    height: 75px;
+   
+    color: white;
+    border-color:white;
+    cursor: pointer;
+    align-self: center;
+}
+
+#dots{
+    margin: 0 auto;
+    margin-top: 75px;
+    text-align: center;
+}
+
+.dot{
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 3.5px;
+    
+}
+
+Link{
+    text-decoration: none;
+}
+
+#sections ul li{
+    color:white;
+    font-weight: 600;
+    display: inline-block;
+    margin: 0 4ا0px;
+    padding: 20px 20px;
+}
+#sections ul{
+    display: flex;
+    justify-content: space-between;
+}
+#sections{
+    margin: 20px;
+    background-color: black;
+    z-index: 1;
+}
+
+#site-info{
+    background-color: white;
+        
+}
+
+#site-info ul li{
+    display: inline-block;
+    padding:0 30px;
+    cursor: pointer;
+    
+}
+
+#site-info ul{
+    text-align: center;
+    
+}
+
+#overview-mission{
+    display: flex;    
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #ececed;
+    margin-top: 100px;
+    padding: 50px 0;    
+    
+}
+
+.small-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+#overview{
+    width: 39%;
+    display: inline-block;
+    background-color: white;
+    border-radius: 2px;
+    padding: 20px;
+}
+
+#mission{
+    width: 59%;
+    display: inline-block;
+    background-color: white;
+    border-radius: 2px;
+    padding: 20px;
+    
+}
+
+.headline{
+    text-align: left;
+    font-weight: 600;
+    font-size: 1.3em;
+}
+
+.description{
+    text-align: left;
+    color: #97a3b3;
+    padding-top: 15px;
+    
+    
+}
+
+.more{
+
+    background-color: transparent;
+    color: #e6001f;
+    border: none;
+    padding-top:50px;
+    padding-bottom: 50px;
+}
+
+#history{
+    width: 60%;
+    height:320px;
+    background-color: white;
+    padding: 30px;
+}
+
+.history-container{
+    display: flex;
+    margin-top: 50px;
+    position: relative;
+}
+
+
+#history .description{
+    padding-left: 15px;
+    padding-right: 50px;
+    padding-top: 15px;
+}
+
+#img-history{
+    height: 300px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+#directors-speech{
+    background-color: #e50f0f;
+    color: white;
+}
+
+#directors-speech .test .more{
+    color:white;
+    margin: 0 200px;
+    font-family: "AvenirL TStd Roman";
+    cursor:pointer;
+}
+
+.circle-parent{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background: white;
+    
+}
+
+#menu{
+    cursor: pointer;
+}
+
+#directors-speech .test{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info{
+    width: 100px
+}
+
+#name, #title{
+    font-family: "AvenirL TStd Roman";
+    width: 50px;
+    margin: 0;
+}
+
+#dir-headline{
+    font-family: "AvenirL TStd";
+    font-size: 1.3em;
+    padding: 30px 200px;
+}
+
+#dir-paragraph1{
+    font-family: "AvenirL TStd Medium";
+    font-size: 1em;
+    font-weight: 100;
+    padding:0 200px;
+}
+
+#dir-paragraph2{
+    font-family: "AvenirL TStd Roman";
+    font-size: 0.7em;
+    padding: 15px 200px;
+}
+
+
+.footer-parent{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin-right: 2%;
+}
+
+.footer-after-logo{
+    display: flex;
+    justify-content: space-between;
+}
+
+#who-we-are, #what-we-do, #other{
+    padding: 2px 2px;
+}
+
+#footer-logo{
+    display: inline-block;
+    width:168px;
+    height: 210px;
+}
+
+.footer{
+    background-color: black;
+    color:white
+}
+
+.footer-parent{
+    padding-top: 20px
+}
+
+.footer ul li{
+    font-family: "AvenirL TStd Roman";
+    padding: 20px 0;
+    color: #97a3b3;
+}
+
+.footer ul li:first-child{
+    font-family: "AvenirL TStd";
+    padding: 10px 0;
+    color: white;
+}
+
+#other ul li{
+    font-family: "AvenirL TStd";
+    padding: 10px 0;
+    color: white;
+}
+
+
+#social-media img{
+    width: 20px;
+    height: 20px;
+    
+}
+
+
+#video video{
+    max-width: 900px;
+    margin-top: 40px;
+    
+}
+
+#video p{
+    background-color: white;
+    color: #97a3b3;
+    padding: 20px;
+}
+
+#video{
+    position: relative;
+}
+
+#play{
+    background: url(images/NS2-home+video_42.jpg);
+    position: absolute;
+    top:500px;
+    left:750px;
+    cursor: pointer;
+    width: 98px;
+    height:96px;
+}
+
+.needed{
+    display: none;
+}
+
+.report{
+    background-color: #e50f0f;
+}
+
+#Main-container2 #dots{
+    background-color: #e50f0f;
+}
+
+.Main-container3 #dots{
+    background-color: #e50f0f;
+}
+
+@media screen and (max-width: 802px){
+    .Main-container3 #dots{
+        margin-top: 150px;
+    }
+    #nav-bar ul{
+        float: none;
+        clear:both;
+        width:100%;
+        padding-left: 30%;
+        
+    }
+    
+    header nav ul li{
+        float: none;
+        clear: right;
+        display: inline-block;
+    }
+    
+    
+    #logo{
+        float: none;
+        clear: both;
+        text-align: center;
+        margin: 10px auto 0 35%;
+    }
+    
+    .Main-Header{
+        height:210px;
+        flex-direction: column;
+        align-content: space-between;
+        
+    }
+    .text h4{
+        font-size: 0.8em;
+        
+    }
+    
+    .text h1{
+        margin: 5px;
+    }
+    
+    #dots{
+      margin-top: 80px;  
+    }
+    
+    .know-more{
+        padding-top: 20px;
+        padding-bottom: 30px;
+        margin: 20px;
+        align-self: center;
+    }
+    
+    #sections{
+        margin: 40px;
+    }
+    
+    #site-info ul li{
+        padding: 30px 10px;
+    }
+    #site-info{
+        margin-top: 85px;
+    }
+    #overview-mission{
+        flex-wrap: nowrap;
+        
+    }
+    .small-container{
+        flex-direction: column;
+    }
+    #overview{
+        width:70%;
+        margin: 10px auto;
+        
+    }
+    
+    #mission{
+        width:70%;
+        margin: 10px auto;
+    }
+    
+    #history{
+        margin-left: 5%;
+    }
+    
+    #img-history{
+        position: absolute;
+        top: 110%; 
+    }
+    
+    .needed{
+        display: block;
+        height: 200px;
+        background-color: #ececed;
+        width:100%;
+    }
+    #history .description{
+        padding-right: 30px;
+    }
+    
+    #video video{
+        max-width: 100%;
+        margin-top: 40px;
+    }
+    
+    .test-dir-speech{
+        margin-left: 80px;
+        
+    }
+    
+    .footer .test{
+        margin: 0 20px;
+    }
+    
+    #dir-headline{
+        padding: 20px 100px;
+    }
+    
+    #dir-paragraph1{
+        padding: 5px 100px;
+    }
+    
+    #dir-paragraph2{
+        padding: 5px 100px;
+    }
+    
+    #name, #title{
+        padding-right: 15px;
+    }
+    
+    /*.info{
+        top:380%;
+    }*/
+}
+
+@media screen and (max-width: 648px){
+    #history{
+        width:70%;
+        margin: 10px auto;
+    }
+    
+    #img-history{
+        position: absolute;
+        top: 90%;
+        width:60%;
+        right: 50%;
+        transform: translateX(50%);
+        
+    }
+    .needed{
+        height: 300px;
+    }
+    
+    
+}
+
+@media screen and (max-width: 595px){
+    
+    .footer-parent{
+        display: block;
+        /*flex-direction: column;*/
+    }
+    .footer-logo-div{
+        display: block;
+    }
+    
+    #footer-logo{
+        margin-left: 38%;
+    }
+    .footer-after-logo{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .footer-parent{
+        padding: 0 20px;
+    }
+    #directors-speech{
+        padding: 0 20px;
+    }
+    
+    .Main-container .test{
+        margin: 0 20px;
+    }
+}
+
+

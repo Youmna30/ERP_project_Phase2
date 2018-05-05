@@ -1,0 +1,83 @@
+@font-face { font-family: "AvenirL TStd"; src: url(../fonts/AvenirLTStd-Heavy.otf); }
+@font-face { font-family: "AvenirL TStd Roman"; src: url(../fonts/AvenirLTStd-Roman.otf); }
+@font-face { font-family: "AvenirL TStd Medium"; src: url(../fonts/AvenirLTStd-Medium.otf); }
+@font-face { font-family: "AvenirL TStd Book"; src: url(../fonts/AvenirLTStd-Book.otf); }
+
+
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.test{
+    margin: 0 auto;
+    max-width: 900px;
+}
+
+#Main-container{
+    background: url(..//imgs/29939780_1768013479929420_1524403839_n.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-color: #e5001e;
+    height: 400px;
+    position: relative;
+}
+
+#logo{
+    width: 151px;
+    height: 164px;
+    float: left bottom;
+    margin-top: 20px;
+}
+
+#close{
+    width: 50px;
+    height:50px;
+    position: absolute;
+    z-index: 1;
+    top: 20px;
+    left:16.5%;
+    
+}
+
+#close::after{
+    content: "\00d7";
+    cursor: pointer;
+    color: white;
+    font-weight: 300;
+    font-family: "AvenirL TStd Roman";
+    font-size: 2em;
+    margin-left: 750px;
+    
+}
+/*#close::after{
+    display: inline-block;
+    content: "\00d7";
+}*/
+
+#search{
+    background-color: transparent;
+    color: #f2a0a5;
+    font-family: "AvenirL TStd Book";
+    font-size: 1.8em;
+    width:600px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom-color: #f2a0a5;
+    margin-left: 170px;
+    background: url("../imgs/search.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    /*margin-right: 30px;
+    margin-bottom: 30px;*/
+}
+
+#result{
+    height:100vh;
+    background-color: #e7e7e6;
+    
+}
+

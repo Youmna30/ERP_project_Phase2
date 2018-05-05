@@ -1,0 +1,598 @@
+@font-face { font-family :"Avenir Heavy"}
+@font-face { font-family: "AvenirL TStd Roman" }
+*{
+  margin: 0px;
+  padding: 0px;
+}
+.header{
+  background-color: #e6001f;
+background-repeat: no-repeat;
+   	height: 20cm;
+    width: 67.7cm;
+    opacity: 1;
+}
+.logo{
+    margin-left: 9cm;
+    margin-top: 1cm;
+    width: 5cm;
+    float: left;
+    height: 5cm;
+    z-index:2
+
+}
+
+.report{
+    margin-left: 18cm;
+    margin-top: 11cm;
+    width: 34cm;
+    font-style: normal;
+    color: white;
+    font-size: 107px;
+    font-family: "Aviner Heavy";
+}
+.icons .m{
+    margin-left: 30cm;
+    margin-top: 2cm;
+}
+
+.icons .s{
+    margin-left: 1.5cm;
+    margin-top: 2cm;
+    height: 0.5cm;
+}
+.icons .en{
+   margin-left: 1.5cm;
+    margin-top: 2cm;
+    height: 0.5cm;
+}
+.icons .arrow{
+    margin-left: 0.1cm;
+    margin-top: 1cm;
+}
+.icons .menu{
+    margin-left: 1.5cm;
+    margin-top: 2cm;
+    height: 0.5cm;
+}
+.black{
+
+    width: 44cm;
+    height: 3cm;
+    background-color:black;
+    margin-left: 11cm;
+    margin-top: -1.5cm;
+}
+.black li{
+    margin-top: 0.6cm;
+    float: left;
+    list-style-type: none;
+
+}
+
+.black li a {
+    font-family: "Aviner Heavy";
+    display: inline-block;
+    padding: 20px;
+    margin-left: 8cm;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: white;
+    text-align: left;
+}
+.black li a.current{
+    color: red;
+}
+.white{
+    margin-top: 0cm;
+    height: 2.5cm;
+    width: 67.7cm;
+    padding-bottom: 0cm;
+    margin-left: 15cm;
+    margin-bottom: 0cm;
+    background-color: #ffffff;
+    position: absolute;
+}
+.white li{
+    float: left;
+    list-style-type: none;
+    margin-top: 0.5cm
+}
+
+.white li a {
+    margin-left: 4cm;
+    font-family: "Aviner Heavy";
+     display: inline-block;
+    padding: 20px;
+    padding-bottom: 0cm;
+    margin-bottom:0cm;
+    text-transform: uppercase;
+    font-size: 16pt;
+    text-decoration-color: black;
+    color: Black;
+    text-align: left;
+}
+
+.middle{
+    height: 65cm;
+    width: 67.7cm;
+    padding-top: 1cm;
+    margin-top: 3cm;
+    margin-bottom: 0cm;
+    padding-bottom: 0cm;
+    background-color: #ececed;
+}
+.middle .form{
+    width: 45cm;
+    height: 55cm;
+    background-color: white;
+    margin-left: 11cm;
+    padding-top: 0cm;
+    margin-bottom: 0cm;
+    padding-bottom: 0cm;
+    margin-top: -8cm;
+    padding-bottom: 0cm;
+    margin-bottom: 0cm;
+}
+
+.container{
+  background: #ececed; width: 100%;max-width: 1920px;margin: auto;
+}
+.row{
+  background: #ffffff; padding: 3%;margin-top: 1%;margin-bottom: 0;
+}
+.content{
+
+    font-family: Calibri;
+
+    font-size: 16pt;
+
+    color: rgba(149, 149, 149, 255);
+
+    text-align: left;
+
+}
+.nav
+
+{
+
+    background: black;
+
+    height: 85px;
+
+    margin-top: -145px;
+
+/*    position: absolute;*/
+
+
+
+
+
+}
+
+.txt{
+
+    font-family: Calibri;
+
+    font-size: 16pt;
+
+    color: rgba(255, 255, 255, 255);
+
+    text-align: center;
+
+}
+
+
+
+.txt2{
+
+    font-family: Calibri;
+
+    font-size: 16pt;
+
+    color: rgba(0, 0, 0, 255);
+
+    text-align: center;
+
+    text-transform: uppercase;
+
+    margin: 0%;
+
+    height: 100px;
+
+
+
+/*    min-height: 100px;*/
+
+/*    background: whigt;*/
+
+}
+
+.title{
+
+    font-family: Calibri;
+
+    font-size: 30pt;
+
+    color: rgba(0, 0, 0, 255);
+
+    text-align: left;
+
+    text-transform: uppercase;
+
+
+
+
+}
+
+.title-small{
+
+    font-family: Calibri;
+
+    font-size: 30pt;
+
+    color: rgba(0, 0, 0, 255);
+
+    text-align: left;
+
+    margin-left:1%;
+
+    width: 100%
+
+}
+
+.content{
+
+    font-family: Calibri;
+
+    font-size: 25pt;
+
+    color: rgba(149, 149, 149, 255);
+
+    text-align: left;
+
+}
+
+.more
+
+{
+
+    font-family: Calibri;
+
+    font-size: 18pt;
+
+    color: rgba(230, 0, 31, 255);
+
+    text-align: left;
+
+}
+
+ul {
+
+    list-style: none;
+
+    padding: 0;
+
+    margin: 0;
+
+}
+
+.footer1{
+
+    font-size: 18pt;
+
+    color: rgb(255,255,255);
+
+    font-family: "Calibri";
+
+    text-align: left;
+
+}
+
+.footer2{
+
+    opacity: 0.6;
+
+}
+
+
+
+.red-txt
+
+{
+
+    color: #e6001f;
+
+}
+
+.row1{
+margin-top:1%;
+
+}
+.col1{
+background: #ffffff;padding: 2.5%;
+width: 21cm;
+height: 21cm;
+margin-left: 8.5cm;
+float: left;
+}
+.dash{
+  margin-right: 5%;
+
+}
+.row2{
+background: #ffffff;
+padding: 2.5%;
+margin-left: 34cm;
+margin-bottom: 1cm;
+width: 21cm;
+margin-top: 1%;
+height: 13cm;
+
+}
+.row3{
+  background: #ececed;
+  margin-left: 9.5cm;
+  margin-top: 3cm;
+  float: left;
+}
+.row4{
+  background: #ececed;
+  margin-left: 5cm;
+  margin-top: 3cm;
+  float: left;
+}
+.row5{
+  background: #ececed;
+  margin-left: 5cm;
+  margin-top: 3cm;
+  float: left;
+}
+.faq{
+background: #ffffff;padding: 2.5%;
+margin-left: 34cm;
+width :21cm;
+height: 4cm;
+}
+.form .report{
+    text-decoration-color: black;
+    color: black;
+    margin-left: 3cm;
+    padding-top: 0cm;
+    padding-top: 2cm;
+    text-align: left;
+    font-size: 40px;
+}
+.form .line{
+    margin-left: 3cm;
+    width: 39cm;
+}
+.form .w1 .h01{
+   color: red;
+    margin-left: 3cm;
+    text-decoration: underline;
+    margin-top: 2cm;
+    margin-right: 1cm;
+    float: left;
+
+}
+.form .w1 .circle{
+    margin-top: 1cm;
+    float: left;
+    margin-right: 1cm;
+}
+.form .w1 .p1{
+    margin-top: 1cm;
+    padding-top: 2cm;
+    margin-left: 1cm;
+    margin-bottom: 0cm;
+    color: red;
+    font-size: 20px;
+}
+.form .w1 .p2{
+    color: gainsboro;
+    float: left;
+}
+.form .w1 .d1{
+    color: red;
+    margin-top: -1.5cm;
+    margin-left: 20cm;
+}
+.form .w1 .p3{
+    color: gainsboro;
+    margin-left: 20cm;
+    font-size: 20px;
+}
+.form .w1 .b{
+    color: red;
+    margin-left: 25cm;
+    margin-top: -3.5cm;
+    padding-top: 0cm;
+    border-color: red;
+    width: 6cm;
+    height: 2cm;
+    margin-bottom: 0cm;
+    padding-bottom: 0cm;
+    float: left;
+    background-color: white;
+    font-size: 25px;
+    font-weight: 200;
+}
+.form .w1 .p4{
+    float: left;
+    color: gainsboro;
+    margin-left: 26cm;
+    margin-top: -1cm;
+    font-size: 20px;
+}
+.form .w2 .h01{
+   color: red;
+    margin-left: 3cm;
+    text-decoration: underline;
+    margin-top: 2cm;
+    margin-right: 1cm;
+    float: left;
+
+}
+.form .w2 .circle{
+    margin-top: 1cm;
+    float: left;
+    margin-right: 1cm;
+}
+.form .w2 .p1{
+    margin-top: 1cm;
+    padding-top: 2cm;
+    margin-left: 1cm;
+    margin-bottom: 0cm;
+    color: red;
+    font-size: 20px;
+}
+.form .w2 .p2{
+    color: gainsboro;
+    float: left;
+}
+.form .w2 .d1{
+    color: red;
+    margin-top: -1.5cm;
+    margin-left: 20cm;
+}
+.form .w2 .p3{
+    color: gainsboro;
+    margin-left: 20cm;
+    font-size: 20px;
+}
+.form .w2 .b{
+    color: red;
+    margin-left: 25cm;
+    margin-top: -3.5cm;
+    padding-top: 0cm;
+    width: 6cm;
+    height: 2cm;
+    margin-bottom: 0cm;
+    padding-bottom: 0cm;
+    float: left;
+    background-color: white;
+    border-color: red;
+    font-size: 25px;
+}
+.form .w2 .p4{
+    float: left;
+    color: gainsboro;
+    margin-left: 26cm;
+    margin-top: -1cm;
+    font-size: 20px;
+}
+.form .w3 .h01{
+   color: red;
+    margin-left: 3cm;
+    text-decoration: underline;
+    margin-top: 2cm;
+    margin-right: 1cm;
+    float: left;
+
+}
+.form .w3 .circle{
+    margin-top: 1cm;
+    float: left;
+    margin-right: 1cm;
+}
+.form .w3 .p1{
+    margin-top: 1cm;
+    padding-top: 2cm;
+    margin-left: 1cm;
+    margin-bottom: 0cm;
+    color: red;
+    font-size: 20px;
+}
+.form .w3 .p2{
+    color: gainsboro;
+    float: left;
+}
+.form .w3 .d1{
+    color: red;
+    margin-top: -1.5cm;
+    margin-left: 20cm;
+}
+.form .w3 .p3{
+    color: gainsboro;
+    margin-left: 20cm;
+    font-size: 20px;
+}
+.form .w3 .b{
+    border-color: red;
+    color: red;
+    margin-left: 25cm;
+    margin-top: -3.5cm;
+    padding-top: 0cm;
+    width: 6cm;
+    height: 2cm;
+    margin-bottom: 0cm;
+    padding-bottom: 0cm;
+    float: left;
+    background-color: white;
+    font-size: 25px;
+}
+.form .w3 .p4{
+    float: left;
+    color: gainsboro;
+    margin-left: 26cm;
+    margin-top: -1cm;
+    font-size: 20px;
+}
+.footer .test div{
+    display: flex;
+    justify-content: space-between;
+    color: black;
+}
+
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.footer-logo{
+    display:inline-block;
+    margin-left: 10cm;
+    margin-top: 0cm;
+    width:168px;
+    height: 210px;
+    padding-bottom: 2cm;
+}
+
+.footer{
+    background-color: black;
+    color:white;
+    width: 67.7cm;
+    height: 15cm;
+}
+
+.footer div{
+    padding-top: 200px;
+}
+
+.footer ul li{
+    font-family: "AvenirL TStd Roman";
+    padding: 10px 0px 0px 0px;
+    margin-top: 0cm;
+    color: #97a3b3;
+}
+
+.footer ul li:first-child{
+    font-family: "AvenirL TStd";
+    padding: 15px ;
+    color: white;
+}
+
+.other ul li{
+    font-family: "AvenirL TStd";
+    padding: 10px 30px;
+    color: white;
+}
+
+
+.social-media img{
+    width: 30px;
+    height: 30px;
+
+}
